@@ -17,3 +17,4 @@ assert check1 == 'PYTHON'
 chorom.find_element('id','notes').send_keys('hello hello')
 check2 = chorom.find_element('id','area_notes_validate')
 assert check2 =='hello hello'
+ 
